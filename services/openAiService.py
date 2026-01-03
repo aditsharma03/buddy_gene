@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 async def generate_with_openrouter(prompt: str, max_tokens: int, temperature: float):
     # Fake response only for testing
     return """
@@ -10,3 +11,12 @@ Acceptance Criteria:
 - The user must enter a new password that meets security rules.
 - An error message is shown for invalid or expired links.
     """.strip()
+=======
+
+
+async def generateTestCases(text, mode):
+    ...
+
+async def generateFromManualFiles(multerFiles, kind):
+    ...
+>>>>>>> 73570ffe4b59a5d36f49305e8538d02ba1567111
