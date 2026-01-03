@@ -18,7 +18,7 @@ def main():
     load_dotenv()
     app.include_router(authRoutes.router) 
     app.include_router(jiraRoutes.router)
-    app.include_router(poRoutes.router, prefix="/po")
+    app.include_router(poRoutes.router)
 
 
     PORT: int = int(os.getenv("PORT") or 8000)
